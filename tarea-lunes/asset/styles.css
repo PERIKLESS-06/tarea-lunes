@@ -1,0 +1,29 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  justify-content: end;
+}
+
+.carousel-container {
+  width: 100%;
+}
+
+.cards-container {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 10px;
+    margin: 10px;
+}
+
+.custom-card {
+width:400px;
+    
+}
+
+@media (min-width: 1800px) {
+  .carousel-container {
+    width: 1800px;
+    margin: 0 auto;
+    max-height: 1200px;
+  }
+}
